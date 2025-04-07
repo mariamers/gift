@@ -9,7 +9,7 @@ return (
     <View style={styles.container}>
     <Stack>
     <Stack.Screen name='index' options={{...StackScreenWithSearchBar,
-        headerTitle:"Perfil",}}/>
+        headerTitle:"Perfil", headerShown: (false)}}/>
     </Stack></View>
 )
 }

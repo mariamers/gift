@@ -8,8 +8,7 @@ import { View } from "react-native"
 return (
     <View style={styles.container}>
     <Stack>
-    <Stack.Screen name='index' options={{...StackScreenWithSearchBar,
-        headerTitle:"Listas",}}/>
+    <Stack.Screen name='index' options={{headerShown: (false)}}/>
     </Stack></View>
 )
 }

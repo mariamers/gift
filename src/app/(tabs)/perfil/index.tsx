@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, TouchableOpacity, FlatList, StyleSheet } from "react-native";
+import { View, Text, TouchableOpacity, FlatList } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import Card from "@/components/card";
 import { styles } from "@/utils/styles"
@@ -38,7 +38,7 @@ const LoginScreen = () => {
           <Text style={styles.seeMore}>ver mais</Text>
         </View>
   
-        {/* Botão Flutuante */}
+        {/* Botão de + */}
         <TouchableOpacity style={styles.fab}>
           <Ionicons name="add" size={24} color="white" />
         </TouchableOpacity>

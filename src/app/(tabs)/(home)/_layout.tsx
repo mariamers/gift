@@ -10,7 +10,7 @@ return (
     <Stack>
     <Stack.Screen name='index' options={{
         ...StackScreenWithSearchBar,
-        headerTitle:"Home",}}/>
+        headerTitle:"Home", headerShown: (false)}}/>
     </Stack></View>
 )
 }

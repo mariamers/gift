@@ -40,4 +40,5 @@ const TabsNavigation = () => {
     )
 }
 
+
 export default TabsNavigation

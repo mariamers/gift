@@ -1,3 +1,4 @@
+import { colors } from "@/utils/tokens";
 import { Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaProvider } from "react-native-safe-area-context";
@@ -14,7 +15,10 @@ const App = () => {
 const RootNavigation = () => {
     return ( 
         <Stack>
-            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+            <Stack.Screen name="(tabs)" options={{ headerShown: true, headerTitle: "gift", headerTitleAlign: 'center', headerStyle: {
+          backgroundColor: (colors.primary) }, headerTintColor: (colors.text)}} />
+             <Stack.Screen name="index" options={{ headerShown: false}} />   
+             <Stack.Screen name="login" options={{ headerShown: false}} />         
         </Stack>
     );
 };

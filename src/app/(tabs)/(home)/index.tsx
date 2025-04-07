@@ -1,8 +1,6 @@
 import React from "react";
 import { View, Text, TouchableOpacity, FlatList, StyleSheet } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import Footer from "@/components/footer";
-import Header from "@/components/header";
 import Card from "@/components/card";
 import { styles } from "@/utils/styles";
 
