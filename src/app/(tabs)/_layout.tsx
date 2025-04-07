@@ -6,10 +6,10 @@ const TabsNavigation = () => {
     return (
         <Tabs screenOptions={
             {
-                tabBarActiveTintColor: colors.secondary,
+                tabBarActiveTintColor: colors.dark,
                 tabBarLabelStyle: { fontSize: fontSize.xs },
                 headerShown: false,
-                tabBarStyle: { backgroundColor: colors.primary }
+                tabBarStyle: { backgroundColor: colors.dark }
 
             }
         }

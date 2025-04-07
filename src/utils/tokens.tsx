@@ -1,8 +1,12 @@
 export const colors = {
-    primary: '#1B1919',
-    secondary:'#f5f5f5',
+    primary: '##2C2C2C',
+    secondary:'##C8C8C8',
     text:'#f5f5f5',
+    button: '#D3D3D3',
     hover: '#1B1919',
+    bg: '#232020',
+    dark: '##1B1919'
+
 }
 
 export const fontSize = {

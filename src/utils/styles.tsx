@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
   // Containers
   container: {
     flex: 1,
-    backgroundColor: colors.primary,
+    backgroundColor: colors.bg,
     gap: 12,
     padding: 24,
   },
@@ -13,10 +13,32 @@ export const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-around",
     alignItems: "center",
-    backgroundColor: colors.primary,
+    backgroundColor: colors.bg,
     paddingVertical: 10,
   },
 
+  //Card
+
+  Card: {
+    borderBottomColor: colors.text,
+    borderBottomWidth: 1,
+    borderRadius: 12,
+  },
+  cardItem: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: colors.primary,
+    padding: 10,
+    borderRadius: 8,
+  },
+  cardImagePlaceholder: {
+    width: 40,
+    height: 40,
+    backgroundColor: "#444",
+    marginRight: 10,
+    borderRadius: 4,
+  },
+  
   // Tipografia e títulos
   logo: {
     color: colors.text,
@@ -80,6 +102,7 @@ export const styles = StyleSheet.create({
     color: "gray",
     textAlign: "right",
     marginTop: 5,
+    paddingBottom: 12,
   },
   seeMoreMERS: {
     color: "gray",
@@ -101,7 +124,7 @@ export const styles = StyleSheet.create({
   button: {
     width: "100%",
     height: 52,
-    backgroundColor: colors.secondary,
+    backgroundColor: colors.primary,
     justifyContent: "center",
     alignItems: "center",
     borderRadius: 8,
@@ -123,20 +146,7 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     borderRadius: 8,
   },
-  feedItem: {
-    flexDirection: "row",
-    alignItems: "center",
-    backgroundColor: "#2A2A2A",
-    padding: 10,
-    borderRadius: 8,
-  },
-  feedImagePlaceholder: {
-    width: 40,
-    height: 40,
-    backgroundColor: "#444",
-    marginRight: 10,
-    borderRadius: 4,
-  },
+
 
   // Navegação e estrutura
   tab: {
